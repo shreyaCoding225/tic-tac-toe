@@ -1,15 +1,17 @@
-# Tic-Tac-Toe (Two Player)
+# Tic-Tac-Toe (JavaScript)
 
-A terminal-based strategy game focusing on 2D array manipulation and game-state validation.
+A dynamic web-based game implementing 2D array logic and DOM updates to provide a seamless user experience.
 
 ## 🎮 Features
-- **Visual Grid:** Renders a 3x3 board in the terminal that updates after every move.
-- **Win Detection:** A custom algorithm that checks 8 possible directions for a victory.
-- **Collision Prevention:** Logic that prevents players from selecting a cell that is already occupied.
+- **State Management:** Uses an array to keep track of the 3x3 grid's current state.
+- **Win-Check Algorithm:** Iterates through winning combinations after every click.
+- **Game Reset:** Built-in functionality to clear the board and restart the match without refreshing the page.
 
 ## 🚀 How to Run
-1. Open your terminal/command prompt.
-2. Navigate to the project folder.
-3. Run the command:
-   - **Python:** `python main.py`
-   - **C++:** `g++ main.cpp -o tictactoe && ./tictactoe`
+- Simply open the `index.html` file in any browser to start playing instantly.
+- (Optional) [Link to your GitHub Pages Live Demo]
+
+## 🧠 Key JS Concepts Used
+- **Arrays & Loops:** For checking win/draw conditions.
+- **Template Literals:** For dynamic UI updates.
+- **Functions:** Modular code structure for reusability.
